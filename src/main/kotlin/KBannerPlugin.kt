@@ -7,7 +7,7 @@ class KBannerConfig {
 }
 
 val KBanner = createApplicationPlugin(
-    name = "BannerPlugin",
+    name = "KBanner",
     createConfiguration = ::KBannerConfig
 ) {
     var banner = """
